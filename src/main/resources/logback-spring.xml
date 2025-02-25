@@ -1,6 +1,6 @@
 <configuration>
     <property name="LOG_FILE" value="logs/app.log"/>
-    
+
     <!-- Console Appender -->
     <appender name="Console" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
@@ -12,7 +12,7 @@
     <appender name="File" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <file>${LOG_FILE}</file>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <fileNamePattern>/opt/wildfly/stanalone/log/app-%d{yyyy-MM-dd}.log</fileNamePattern>
+            <fileNamePattern>logs/app-%d{yyyy-MM-dd}.log</fileNamePattern>
             <maxHistory>7</maxHistory>
         </rollingPolicy>
         <encoder>
@@ -20,9 +20,6 @@
         </encoder>
     </appender>
 
-    <!-- Logger Configurations -->
-    <logger name="com.yourpackage" level="DEBUG"/>
-    
     <!-- Root Logger -->
     <root level="INFO">
         <appender-ref ref="Console"/>
