@@ -1,3 +1,0 @@
-2025-02-25 08:49:31 [main] INFO  c.example.demo.DemoApplicationTests - Starting DemoApplicationTests using Java 21.0.5 with PID 15348 (started by NATHEESHANS.OU in C:\Users\natheeshans.ou\Desktop\spring\demo)
-2025-02-25 08:49:31 [main] INFO  c.example.demo.DemoApplicationTests - No active profile set, falling back to 1 default profile: "default"
-2025-02-25 08:49:35 [main] INFO  c.example.demo.DemoApplicationTests - Started DemoApplicationTests in 4.991 seconds (process running for 7.801)
